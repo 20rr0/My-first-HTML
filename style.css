@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    margin: 0px;
+}
+
 #introText {
     color: #0000FF;
 }
@@ -60,4 +64,18 @@ body {
     width: 850px;
     margin: 0px auto;
     background-color: #FFFFFF;
+}
+
+#paddingTest {
+    width: 260px;
+    height: 260px;
+    background-color: #959595;
+    margin: 0px 0px 30px 0px;
+    padding: 20px;
+
+}
+
+#navigation a {
+    padding: 5px;
+    background: #b1d1a3;
 }
