@@ -8,13 +8,58 @@ p {
     margin: 0px;
 }
 
-#introText {
-    color: #0000FF;
+td {
+    border: 1px solid #000000;
+}
+
+/*Classes*/
+.reset {
+    clear: both;
+}
+
+.socialTumb {
+    float: left;
+    width: 56px;
+    height: 56px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0px 0px 0px 18px;
 }
 
 .highlight {
     color: #ff00e6;
     font-weight: bold;
+}
+
+/*ID's*/
+#mainContainer {
+    width: 850px;
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+/*Navigation*/
+#navigation {
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+#navigation a {
+    padding: 10px;
+    background: #b1d1a3;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#navigation a:hover {
+    background: #4f6944;
+}
+
+/*Intro part*/
+#introText {
+    color: #0000FF;
 }
 
 #introContainer {
@@ -27,10 +72,7 @@ p {
     float: left;
 }
 
-.reset {
-    clear: both;
-}
-
+/*Hobbies part*/
 #hobbyContainer {
     width: 420px;
     height: 151px;
@@ -47,24 +89,10 @@ p {
     margin: 44px 0px 42px 53px;
 }
 
+/*Meme part*/
+
 #meme {
     float: left;
-}
-
-.socialTumb {
-    float: left;
-    width: 56px;
-    height: 56px;
-    background-color: #FFFFFF;
-    text-align: center;
-    margin: 0px 0px 0px 18px;
-}
-
-#mainContainer {
-    width: 850px;
-    margin: 0px auto;
-    padding: 20px 0px 0px 0px;
-    background-color: #FFFFFF;
 }
 
 #paddingTest {
@@ -72,22 +100,8 @@ p {
     height: 260px;
     background-color: #959595;
     margin: 0px 0px 30px 0px;
+    /*padding adds to with and height*/
     padding: 20px;
+    border-radius: 4px;
 
-}
-
-#navigation {
-    height: 30px;
-    margin: 0px 0px 10px 0px;
-}
-
-#navigation a {
-    padding: 10px;
-    background: #b1d1a3;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-#navigation a:hover {
-    background: #4f6944;
 }
