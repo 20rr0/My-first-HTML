@@ -63,6 +63,7 @@ p {
 #mainContainer {
     width: 850px;
     margin: 0px auto;
+    padding: 20px 0px 0px 0px;
     background-color: #FFFFFF;
 }
 
@@ -75,7 +76,18 @@ p {
 
 }
 
+#navigation {
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
 #navigation a {
-    padding: 5px;
+    padding: 10px;
     background: #b1d1a3;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    background: #4f6944;
 }
