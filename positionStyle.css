@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+h2 {
+    padding: 85px;
+    color: white;
+    font-size: 44px;
+    margin: 0px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+}
+
+#first {
+    background-color: blue;
+}
+
+#second {
+    background-color: blueviolet;
+}
+
+#third {
+    background-color: brown;
+}
+
+#fourth {
+    background-color: burlywood;
+}
+
+#fifth {
+    background-color: cadetblue;
+}
+
+#sixth {
+    background-color: chartreuse;
+}
